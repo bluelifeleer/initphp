@@ -1,6 +1,7 @@
 # initphp
 InitPHP是一款轻量级的PHP开源框架。InitPHP采用了BSD开源协议。
 1、新建项目根目录：
+
 mkdir myproject/
 	cd myproject
 	mkdir conf

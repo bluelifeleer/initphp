@@ -1,17 +1,16 @@
 # initphp
 InitPHP是一款轻量级的PHP开源框架。InitPHP采用了BSD开源协议。
 1、新建项目根目录：
-
-mkdir myproject/
+	mkdir myproject/
 	cd myproject
 	mkdir conf
 	touch comm.conf.php;
 2、复制initphp框架主文件
-cp initphp ./myproject/
+	cp initphp ./myproject/
 3、创建入口文件
 touch index.php
 4、配置入口文件
-	vim index.php
+vim index.php
 	//定义项目目录
 	define('APP_PATH',dirname(__FILE__));
 	//设置字符集内容类型
